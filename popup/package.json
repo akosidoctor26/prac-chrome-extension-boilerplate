@@ -1,0 +1,50 @@
+{
+  "name": "popup",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "files": [
+    "../dist"
+  ],
+  "module": "../dist/popup.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production rollup -c",
+    "start": "cross-env NODE_ENV=production rollup -c -w",
+    "start-web": "react-scripts start",
+    "build-web": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "5.2.0",
+    "@rollup/plugin-commonjs": "15.0.0",
+    "@rollup/plugin-node-resolve": "9.0.0",
+    "@rollup/plugin-replace": "2.3.3",
+    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/react": "9.5.0",
+    "@testing-library/user-event": "7.2.1",
+    "cross-env": "7.0.2",
+    "node-sass": "4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3",
+    "rollup": "2.26.5",
+    "rollup-plugin-scss": "2.6.0",
+    "rollup-plugin-uglify": "6.0.4"
+  }
+}

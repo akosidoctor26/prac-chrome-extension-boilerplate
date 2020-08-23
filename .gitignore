@@ -1,0 +1,5 @@
+node_modules/
+/dist/background.js
+/dist/popup.css
+/dist/popup.html
+/dist/popup.js
